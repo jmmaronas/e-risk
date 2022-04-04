@@ -3,7 +3,7 @@ import {db} from "./db.js"
 export function mostrarItem(curso) {
   principal.innerHTML = "";
   principal.innerHTML = `
-        <div class="container d-flex justify-content-center p-1 p-lg-5">
+        <div class="container d-flex justify-content-center p-1 col-lg-6">
             <div class="card m-1 m-lg-5">
                 <img src="${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
                 <div class="card-body">
@@ -44,7 +44,10 @@ export function mostrarItem(curso) {
       `units${curso.id}`
     ).innerHTML += `<li>${unit.title}</li>`;
   }  
-  window.scroll({top:0})
+  console.log(document.querySelector("#saludoHeader").innerHTML="")
+  document.querySelector("header").style.backgroundImage="none";
+  document.querySelector("header").style.height="0px";
+  window.scroll({top:20})
 }
 
 

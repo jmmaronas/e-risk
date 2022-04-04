@@ -17,67 +17,81 @@
 
 <body>
     <!-- Responsive navbar-->
-    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <div class="container px-5">
-            <a class="navbar-brand" href="./index.html">E-Risk</a>
-            <div class="d-flex">
-                <ul class="nav m-auto mb-2 mb-lg-0">
-                    <li class="-item">
-                        <a class="nav-link text-decoration-none text-reset px-2 px-lg-3" href="https://api.whatsapp.com/send?phone=">
-                            <i class="bi bi-whatsapp d-flex align-items-center text-success fs-5 bg-white rounded-circle p-1 border border-2 border-success"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class=" nav-link text-decoration-none text-reset px-2 px-lg-3" href="mailto:">
-                            <i class="bi bi-envelope d-flex align-items-center  text-primary fs-5 bg-white rounded-circle p-1 border border-2 border-primary"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-decoration-none text-reset px-2 px-lg-3" href="">
-                            <i class="bi bi-instagram  d-flex align-items-center  text-danger fs-5 mx-0 bg-white rounded-circle p-1 border border-2 border-danger"></i>
-                        </a>
-                    </li>
-                </ul>
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="./index.html">E-Risk</a>
+                <div class="d-flex">
+                    <ul class="nav m-auto mb-2 mb-lg-0">
+                        <li class="-item">
+                            <a class="nav-link text-decoration-none text-reset px-2 px-lg-3"
+                                href="https://api.whatsapp.com/send?phone=">
+                                <i
+                                    class="bi bi-whatsapp d-flex align-items-center text-success fs-5 bg-white rounded-circle p-1 border border-2 border-success"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link text-decoration-none text-reset px-2 px-lg-3" href="mailto:">
+                                <i
+                                    class="bi bi-envelope d-flex align-items-center  text-primary fs-5 bg-white rounded-circle p-1 border border-2 border-primary"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none text-reset px-2 px-lg-3" href="">
+                                <i
+                                    class="bi bi-instagram  d-flex align-items-center  text-danger fs-5 mx-0 bg-white rounded-circle p-1 border border-2 border-danger"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                    </ul>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                </ul>
+        </nav>
+        <div id="saludoHeader" class="container pt-5 text-white">
+            <div class="row gx-4 gx-lg-5 align-items-center mt-5">
+                <div id="logoHeader" class="col-lg-7">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 rounded rounded-pill"
+                        src="./assets/img/Ethical Hacking (2).jpg" alt="Ethical Hacking.jpg" />
+                </div>
+                <!-- Heading Row-->
+                <div class="d-flex flex-column align-items-center col-lg-5">
+                    <div>
+                        <h1 class="font-weight-light text-center">Business Name or Tagline</h1>
+                        <p class="col-8 m-auto">This is a template that is great for small businesses. It doesn't have
+                            too much fancy flare to
+                            it,
+                            but it makes a great use of the standard Bootstrap core components. Feel free to use this
+                            template
+                            for any project you want!</p>
+                    </div>
+                    <a class="btn btn-primary mt-4" href="#!">Call to Action!</a>
+                </div>
             </div>
         </div>
-    </nav>
+    </header>
     <!-- Page Content-->
-    <div id="principal" class="main container-fluid px-4 px-lg-5">
-        <!-- Heading Row-->
-        <div class="row gx-4 gx-lg-5 align-items-center my-5">
-            <div class="col-lg-7">
-                <img class="img-fluid rounded mb-4 mb-lg-0" src="./assets/img/Ethical Hacking (2).jpg"
-                    alt="Ethical Hacking.jpg" />
-            </div>
-            <div class="col-lg-5">
-                <h1 class="font-weight-light">Business Name or Tagline</h1>
-                <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it,
-                    but it makes a great use of the standard Bootstrap core components. Feel free to use this template
-                    for any project you want!</p>
-                <a class="btn btn-primary" href="#!">Call to Action!</a>
-            </div>
-        </div>
+    <div id="principal" class="main container-fluid px-4 px-lg-5 my-3">
         <!-- Call to Action-->
-        <div class="card text-white bg-primary my-5 py-4 text-center">
+        <div class="card text-white bg-primary my-3 my-lg-5 py-2 text-center">
             <div class="card-body">
                 <p class="text-white m-0">This call to action card is a great place to showcase some important
                     information or display a clever tagline!</p>
             </div>
         </div>
         <!-- Content Row-->
-        <div id="courseContainer" class="row row-cols-1 row-cols-md-3 g-4">
-                        
+        <div id="courseContainer" class="row row-cols-1 row-cols-md-3">
+
         </div>
     </div>
 

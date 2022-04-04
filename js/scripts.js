@@ -1,14 +1,14 @@
 import { db } from "./db.js"
 import { mostrarItem } from "./item.js";
 
-const principal = document.getElementById("principal");
+
 const courseContainer = document.getElementById("courseContainer");
 
 window.addEventListener("DOMContentLoaded", () => {
     if (location.hash) {
         const pharam = location.hash.slice(1);        
-        const curso = db.products.find((e) => e.id === pharam)
-        mostrarItem(curso)
+        const curso = db.products.find((e) => e.id === pharam);
+        mostrarItem(curso);        
     } else {
         renderCourse();
     }
