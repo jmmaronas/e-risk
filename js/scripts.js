@@ -19,7 +19,7 @@ function renderCourse() {
     courseContainer.innerHTML = "";
     db.products.forEach(product => {
         courseContainer.innerHTML += `
-        <div class="col">
+        <div class="mb-4">
             <div class="card h-100">
                 <img src="${product.img}" class="card-img-top" alt="...">
                 <div class="card-body">
