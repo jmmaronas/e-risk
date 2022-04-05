@@ -44,7 +44,10 @@ export function mostrarItem(curso) {
       `units${curso.id}`
     ).innerHTML += `<li>${unit.title}</li>`;
   }  
-  window.scroll({top:0})
+  document.querySelector("#saludoHeader").innerHTML="";
+  document.querySelector("header").style.backgroundImage="none";
+  document.querySelector("header").style.height="0px";
+  window.scroll({top:20})
 }
 
 
