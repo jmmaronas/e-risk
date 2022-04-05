@@ -3,7 +3,7 @@ import {db} from "./db.js"
 export function mostrarItem(curso) {
   principal.innerHTML = "";
   principal.innerHTML = `
-        <div class="container d-flex justify-content-center p-1 col-lg-6">
+        <div class="container d-flex justify-content-center p-0 p-lg-5">
             <div class="card m-1 m-lg-5">
                 <img src="${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
                 <div class="card-body">
@@ -18,17 +18,17 @@ export function mostrarItem(curso) {
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 <div class="d-flex mb-3">
-                  <a type="button" class="btn btn-success px-2 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=">
+                  <a type="button" class="btn btn-success px-1 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=">
                     <i class="bi bi-whatsapp d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
                   </a>
-                  <a type="button" class="btn btn-primary px-2 px-lg-4 mx-1 mx-lg-3" href="mailto:">
+                  <a type="button" class="btn btn-primary px- px-lg-4 mx-1 mx-lg-3" href="mailto:">
                     <i class="bi bi-envelope d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
                   </a>
-                  <a type="button" href="./index.html" class="btn btn-secondary px-2 px-lg-4 mx-1 mx-lg-3">Cerrar</a>
+                  <a type="button" href="./index.html" class="btn btn-secondary px-1 px-lg-4 mx-1 mx-lg-3">Cerrar</a>
                 </div>
             </div>
             
@@ -44,10 +44,7 @@ export function mostrarItem(curso) {
       `units${curso.id}`
     ).innerHTML += `<li>${unit.title}</li>`;
   }  
-  console.log(document.querySelector("#saludoHeader").innerHTML="")
-  document.querySelector("header").style.backgroundImage="none";
-  document.querySelector("header").style.height="0px";
-  window.scroll({top:20})
+  window.scroll({top:0})
 }
 
 
