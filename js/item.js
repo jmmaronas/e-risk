@@ -3,7 +3,7 @@ import {db} from "./db.js"
 export function mostrarItem(curso) {
   principal.innerHTML = "";
   principal.innerHTML = `
-        <div class="container d-flex justify-content-center p-0 p-lg-5">
+        <div class="container d-flex justify-content-center p-0 p-lg-5 col-lg-8">
             <div class="card m-1 m-lg-5">
                 <img src="${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
                 <div class="card-body">
@@ -18,12 +18,12 @@ export function mostrarItem(curso) {
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 <div class="d-flex mb-3">
-                  <a type="button" class="btn btn-success px-1 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=">
+                  <a type="button" class="btn btn-success px-1 px-lg-4 mx-1 mx-lg-3 " href="https://api.whatsapp.com/send?phone=50769029979">
                     <i class="bi bi-whatsapp d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
                   </a>
-                  <a type="button" class="btn btn-primary px- px-lg-4 mx-1 mx-lg-3" href="mailto:">
+                  <a type="button" class="btn btn-primary px- px-lg-4 mx-1 mx-lg-3" href="mailto:walter.alvarez@e-riskcorp.com">
                     <i class="bi bi-envelope d-flex align-items-center">
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
