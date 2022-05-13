@@ -1,11 +1,11 @@
-import {db} from "./db.js"
+import {db} from "./dbBF.js"
 
 export function mostrarItem(curso, container) {
   container.innerHTML = "";
   container.innerHTML = `
         <div class="container d-flex justify-content-center p-0 p-lg-5 col-lg-8">
             <div class="card m-1 m-lg-5">
-                <img src="${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
+                <img src="../assets/img/BF/${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
                 <div class="card-body">
                     <h3 class="card-title">${curso.title}</h3>
                     <p class="card-text">${curso.description}</p>
@@ -28,7 +28,7 @@ export function mostrarItem(curso, container) {
                       <p class="ms-2 my-auto">Contratalo</p>
                     </i>
                   </a>
-                  <a type="button" href="./index.html" class="btn btn-secondary px-1 px-lg-4 mx-1 mx-lg-3">Cerrar</a>
+                  <a type="button" href="../pages/blockFactory.html" class="btn btn-secondary px-1 px-lg-4 mx-1 mx-lg-3">Cerrar</a>
                 </div>
             </div>
             

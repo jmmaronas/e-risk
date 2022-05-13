@@ -11,17 +11,17 @@
     <link rel="icon" type="image/x-icon" href="assets/logo-sinfondo.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/index.css">
-    <title>E-Rsik</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/index.css">
+    <title>BlockFactory</title>
 </head>
 
 <body>
     <!-- Responsive navbar-->
-    <header id="header-risk">
+    <header id="header-BF">
         <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <div class="container">
-                <a class="navbar-brand fw-bold fs-4" href="./index.html">E-Risk</a>
+                <a class="navbar-brand fw-bold fs-4" href="./blockFactory.html">BlockFactory</a>
                 <div class="d-flex">
                     <ul class="nav m-auto mb-lg-0">
                         <li class="nav-item">
@@ -53,9 +53,9 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-normal fs-4">
-                        <li class="nav-item"><a class="nav-link" href="./pages/blockFactory.html">BlockFactory</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html">E-Risk</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="blockFactory.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#courseContainer">Cursos</a></li>
                     </ul>
@@ -64,8 +64,8 @@
         </nav>
         <div id="saludoHeader" class="container pt-5 text-white">
             <div class="row gx-4 gx-lg-5 align-items-center mt-5">
-                <div id="logoHeader" class="eslogan col-lg-6">
-                    <img class="eslogan img-fluid" src="./assets/img/logo-sinfondo.png" alt="Ethical Hacking.jpg" />
+                <div id="logoHeader" class="col-lg-6">
+                    <img class="eslogan img-fluid" src="../assets/img/logo-BF.png" alt="Ethical Hacking.jpg" />
                 </div>
                 <!-- Heading Row-->
                 <div class="eslogan d-flex flex-column align-items-center col-lg-5">
@@ -84,17 +84,20 @@
     <!-- Page Content-->
     <div id="principal" class="main container-fluid px-4 px-lg-5">
         <!-- Call to Action-->
-        <div class="card text-white bg-secondary my-3 my-lg-5 py-2 text-center">
+        <div id="fondoActionRisk" class="card text-white  my-3 my-lg-5 py-2 text-center">
             <div class="card-body">
-                <a class="d-flex text-decoration-none" href="./pages/blockFactory.html">
-                    <img src="./assets/img/logo-BF.png" alt="">
-                    <p class="text-white m-0 my-auto">This call to action card is a great place to showcase some important
-                        information or display a clever tagline!</p>
+                <a class="d-flex aling-center text-decoration-none" href="../index.html">
+                    <img src="../assets/img/logo-sinfondo.png" alt="logo-BF">
+                    <div class="container">
+                        <h1 class="font-weight-light text-center fw-bolder">E-RISK Information Technology & Security
+                        </h1>
+                        <p class="col-10 m-auto text-center fs-4">Ciberseguridad Inteligente 24/7</p>
+                    </div>
                 </a>
             </div>
         </div>
         <!-- Content Row-->
-        <h1 class="titulo text-center mb-5">Nuestros Cursos</h1>
+        <h1 class="text-center mb-5">Nuestros Cursos</h1>
         <div id="courseContainer" class="row row-cols-1 row-cols-md-3">
 
         </div>
@@ -157,7 +160,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script type="module" src="./js/scripts.js"></script>
+    <script type="module" src="../js/scriptsBF.js"></script>
 </body>
 
 </html>

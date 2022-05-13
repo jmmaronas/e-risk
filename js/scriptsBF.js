@@ -1,5 +1,5 @@
-import { db } from "./db.js"
-import { mostrarItem } from "./item.js";
+import { db } from "./dbBF.js"
+import { mostrarItem } from "./itemBF.js";
 
 
 const courseContainer = document.getElementById("courseContainer");
@@ -28,7 +28,7 @@ function renderCourse() {
         courseContainer.innerHTML += `
         <div class="mb-4">
             <div class="card h-100">
-                <img src="${product.img}" class="card-img-top" alt="...">
+                <img src="../assets/img/BF/${product.img}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${product.title}</h5>
                     <p class="card-text">${product.description}</p>
@@ -48,7 +48,7 @@ window.addEventListener("hashchange", (e) => {
         document.location.href = "#courseContainer"
     } else {
         const pharam = location.hash.slice(1);
-        //document.getElementsByClassName("header").style.backgroundImage=""
+        document.getElementsByClassName("header").style.backgroundImage=""
         const curso = db.products.find((e) => e.id === pharam);
         mostrarItem(curso, courseContainer);
     }
