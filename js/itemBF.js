@@ -7,7 +7,7 @@ export function mostrarItem(curso, container) {
             <div class="card m-1 m-lg-5">
                 <img src="../assets/img/BF/${curso.img}" class="card-img-top" alt="${curso.img}" autofocus>
                 <div class="card-body">
-                    <h3 class="card-title">${curso.title}</h3>
+                    <h3 class="card-title text-center">${curso.title}</h3>
                     <p class="card-text">${curso.description}</p>
                     <h5 class="card-title">Al finalizar el curso podras:</h5>
                     <ul id="skills${curso.id}"></ul>
@@ -44,10 +44,10 @@ export function mostrarItem(curso, container) {
       `units${curso.id}`
     ).innerHTML += `<li>${unit.title}</li>`;
   }  
-  document.querySelector("#saludoHeader").innerHTML="";
-  document.querySelector("header").style.backgroundImage="none";
-  document.querySelector("header").style.height="0px";
-  window.scroll({top:20})
+  // document.querySelector("#saludoHeader").innerHTML="";
+  // document.querySelector("header").style.backgroundImage="none";
+  // document.querySelector("header").style.height="0px";
+  window.scroll({top:860})
 }
 
 

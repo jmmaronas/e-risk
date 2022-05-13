@@ -28,7 +28,7 @@ function renderCourse() {
         courseContainer.innerHTML += `
         <div class="mb-4">
             <div class="card h-100">
-                <img src="${product.img}" class="card-img-top" alt="...">
+                <img src="${product.img}" class="card-img-top" alt="imagen-curso">
                 <div class="card-body">
                     <h5 class="card-title">${product.title}</h5>
                     <p class="card-text">${product.description}</p>

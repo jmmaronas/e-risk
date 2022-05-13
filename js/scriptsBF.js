@@ -48,7 +48,7 @@ window.addEventListener("hashchange", (e) => {
         document.location.href = "#courseContainer"
     } else {
         const pharam = location.hash.slice(1);
-        document.getElementsByClassName("header").style.backgroundImage=""
+        // document.getElementsByClassName("header").style.backgroundImage=""
         const curso = db.products.find((e) => e.id === pharam);
         mostrarItem(curso, courseContainer);
     }
