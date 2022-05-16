@@ -22,7 +22,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
 function renderCourse() {
-    console.log("entro")
     courseContainer.innerHTML = "";
     db.products.forEach(product => {
         courseContainer.innerHTML += `
