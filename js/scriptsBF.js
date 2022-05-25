@@ -29,7 +29,7 @@ function renderCourse() {
             <div class="card h-100">
                 <img src="../assets/img/BF/${product.img}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">${product.title}</h5>
+                    <h5 class="card-title text-center">${product.title}</h5>
                     <p class="card-text">${product.description}</p>
                 </div>
                 <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">

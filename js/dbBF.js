@@ -156,59 +156,96 @@ export const db =
             modality: "On Line",
             img: "inteligencia-artificial.jpg"
         },
-        /*{
+        {
             id: "4",
-            title: "CURSO CIBERSEGURIDAD MÓDULO 1",
+            title: "DIPLOMADO EN GESTIÓN DEL TALENTO HUMANO POR COMPETENCIAS",
             category: "yoga",
-            description: "Identificar los principales componentes y el funcionamiento de las Computadoras y los sistemas de información para su consideración en la aplicación de procedimientos y procesos de la seguridad informática e implementar procesos de seguridad informática en la gestión de las bases de datos y la infraestructura tecnológica en las organizaciones.",
+            description: "El Diplomado en Gestión del Talento Humano que incluye las competencias brinda la especialidad, en el área del activo más valioso de las organizaciones, el Capital Humano. Producir con calidad y al menor costo y llegar al mercado en su momento oportuno requiere el desarrollo del personal en determinadas competencias que conduzcan a la adquisición y aplicación racional de los recursos, a su debido procesamiento y a la distribución de productos y servicios que generen suficientes márgenes de utilidad como para seguir compitiendo en el mercado.",
             skills: [
                 {
                     id: "1",
-                    description: "Fundamentos de Programación Fund; de Tecnologías de Infor."
-                },
-                {
-                    id: "2",
-                    description: "Identidad Universitaria Planeación y Manejo del Tiempo"
-                },
-                {
-                    id: "3",
-                    description:"Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
-                },
-                {
-                    id: "4",
-                    description:"Gestionar la inversión y presupuesto destinado a TI. "
-                },
-                {
-                    id: "5",
-                    description:"Gestionar el riesgo. Gestionar el conocimiento."
-                },
-                {
-                    id: "6",
-                    description:"Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
+                    description: "El diplomado brinda herramientas de formación al estudiante para el desarrollo de competencias relacionadas con la gestión del talento humano en sus áreas de principal impacto.Fundamentos de Programación Fund; de Tecnologías de Infor."
                 }
             ],
             units: [
                 {
                     id: "1",
-                    title: "Gestión estratégica para servicios de TI"
+                    title: "Planificacion del talento humano; Desarrollar competencias en la elaboración de perfiles de cargos y manuales de responsabilidades."
                 },
                 {
                     id: "2",
-                    title: "Gestión del portafolio de servicios"
+                    title: "Reclutamiento; preselección de Candidatos; entrevistas por Competencias; pruebas de Selección de Personal. Gestionar un proceso de selección de personal en una organización empresarial."
                 },
                 {
                     id: "3",
-                    title: "Gestión financiera para servicios de TI"
+                    title: "Vinculación y Contratación. Identificar los requisitos legales del proceso de vinculación y contratación laboral."
                 },
                 {
                     id: "4",
-                    title: "Gestión de demanda Gestión de relaciones del negocio"
+                    title: "Inducción; entretenimiento; desarrollo de Personas; clima Laboral. Estructurar planes y herramientas para potenciar el desarrollo humano en las organizaciones."
+                },
+                {
+                    id: "5",
+                    title: "Evaluación de Desempeño por competencias"
+                },
+                {
+                    id:"6",
+                    title:"Aprendizaje organizacional. Diseñar y aplicar evaluaciones de desempeño por competencias"
                 }
             ],
-            duration: 3,
+            duration: 18,
             modality: "On Line",
-            img: "certificación en ITIL.png"
-        },*/
+            img: "diplomadotalentohumano_short_0.jpg"
+        },
+        {
+            id: "5",
+            title: "DIPLOMADO EN LOGÍSTICA GLOBAL",
+            category: "yoga",
+            description: "Con este diplomado en logística podrás conocer las estrategias para realizar una distribución eficiente de los productos con un excelente servicio.",
+            skills: [
+                {
+                    id: "1",
+                    description: "Desarrollar las claves para dirigir y planificar los procesos de calidad y operaciones logísticas."
+                },
+                {
+                    id: "2",
+                    description: "Adquirir los conocimientos necesarios sobre los fundamentos de la logística, la producción y la distribución comercial a nivel global."
+                },
+                {
+                    id: "3",
+                    description:"Asumir las herramientas necesarias para planificar un proyecto logístico en todas sus fases y tomar decisiones operativas."
+                },
+                {
+                    id: "4",
+                    description:"Conocer el funcionamiento de la gestión de compras y aprovisionamiento y los mecanismos de creación de cadena de suministro."
+                },
+                {
+                    id: "5",
+                    description:"Dominar las tecnologías de la información logística y todas aquellas relacionadas con sistemas e ingeniería logística."
+                }
+            ],
+            units: [
+                {
+                    id: "1",
+                    title: "Introducción a las operaciones: conceptos y métricas Marco contemporáneo de gestión de las operaciones"
+                },
+                {
+                    id: "2",
+                    title: "La búsqueda por la perfección en los procesos. Process Analytics: descubriendo patrones en los datos operacionales"
+                },
+                {
+                    id: "3",
+                    title: "Supply Chain analytics: desagregando los procesos"
+                },
+                {
+                    id: "4",
+                    title: "AOptimización: el uso efectivo de los recursos. Process mining: comprendiendo la interrelación entre los datos y los procesos"
+                }
+            ],
+            duration: 20,
+            modality: "On Line",
+            img: "fc417e79-ece2-4fa1-b0c2-39c083993dad-12792fb57804.jpg"
+        }
     ],
     metodos: {
         capitalize: (string) => {
