@@ -17,19 +17,19 @@ export const db =
                 },
                 {
                     id: "3",
-                    description:"Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
+                    description: "Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
                 },
                 {
                     id: "4",
-                    description:"Gestionar la inversión y presupuesto destinado a TI. "
+                    description: "Gestionar la inversión y presupuesto destinado a TI. "
                 },
                 {
                     id: "5",
-                    description:"Gestionar el riesgo. Gestionar el conocimiento."
+                    description: "Gestionar el riesgo. Gestionar el conocimiento."
                 },
                 {
                     id: "6",
-                    description:"Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
+                    description: "Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
                 }
             ],
             units: [
@@ -70,19 +70,19 @@ export const db =
                 },
                 {
                     id: "3",
-                    description:"Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
+                    description: "Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
                 },
                 {
                     id: "4",
-                    description:"Gestionar la inversión y presupuesto destinado a TI. "
+                    description: "Gestionar la inversión y presupuesto destinado a TI. "
                 },
                 {
                     id: "5",
-                    description:"Gestionar el riesgo. Gestionar el conocimiento."
+                    description: "Gestionar el riesgo. Gestionar el conocimiento."
                 },
                 {
                     id: "6",
-                    description:"Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
+                    description: "Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
                 }
             ],
             units: [
@@ -115,7 +115,7 @@ export const db =
             skills: [
                 {
                     id: "1",
-                    description: "dentificar los principios, sistemas y modelos relacionados con el aprendizaje profundo."
+                    description: "Identificar los principios, sistemas y modelos relacionados con el aprendizaje profundo."
                 },
                 {
                     id: "2",
@@ -123,15 +123,15 @@ export const db =
                 },
                 {
                     id: "3",
-                    description:"Desarrollar las habilidades y destrezas que necesitas para ejecutar correctamente la automatización robótica de procesos en una empresa. "
+                    description: "Desarrollar las habilidades y destrezas que necesitas para ejecutar correctamente la automatización robótica de procesos en una empresa. "
                 },
                 {
                     id: "4",
-                    description:"Descubrir el uso correcto y la contribución de los sistemas de recomendación."
+                    description: "Descubrir el uso correcto y la contribución de los sistemas de recomendación."
                 },
                 {
                     id: "5",
-                    description:"Aplicar los elementos esenciales de la IA en el desarrollo de procesos empresariales como parte de una estrategia de negocio."
+                    description: "Aplicar los elementos esenciales de la IA en el desarrollo de procesos empresariales como parte de una estrategia de negocio."
                 }
             ],
             units: [
@@ -158,93 +158,105 @@ export const db =
         },
         {
             id: "4",
-            title: "DIPLOMADO EN GESTIÓN DEL TALENTO HUMANO POR COMPETENCIAS",
+            title: "Curso Logistica Maritima Modulo 01",
             category: "yoga",
-            description: "El Diplomado en Gestión del Talento Humano que incluye las competencias brinda la especialidad, en el área del activo más valioso de las organizaciones, el Capital Humano. Producir con calidad y al menor costo y llegar al mercado en su momento oportuno requiere el desarrollo del personal en determinadas competencias que conduzcan a la adquisición y aplicación racional de los recursos, a su debido procesamiento y a la distribución de productos y servicios que generen suficientes márgenes de utilidad como para seguir compitiendo en el mercado.",
+            description: "En nuestro planeta, el 71% de la superficie es agua y el 29% es la masa continental. Por ello, conseguir formación para realizar las actividades del entorno portuario e influir en su transporte aumentará la posibilidades para conseguir introducirse en el mercado laboral",
             skills: [
                 {
                     id: "1",
-                    description: "El diplomado brinda herramientas de formación al estudiante para el desarrollo de competencias relacionadas con la gestión del talento humano en sus áreas de principal impacto.Fundamentos de Programación Fund; de Tecnologías de Infor."
+                    description: "Conocer los diferentes modelos de gestión portuaria."
+                },
+                {
+                    id: "2",
+                    description: "Analizar el marco económico, jurídico y político del comercio internacional."
+                },
+                {
+                    id: "3",
+                    description: "Conocer la normativa del comercio internacional, el funcionamiento del sistema aduanero y la gestión de los documentos aduaneros."
+                },
+                {
+                    id: "4",
+                    description: "Aprender las principales características de la contratación y la compraventa internacional."
+                },
+                {
+                    id: "5",
+                    description: "Conocer los aspectos básicos del seguro en el comercio internacional."
+                },
+                {
+                    id: "6",
+                    description: "Aprender las nociones básicas de carga y descarga del buque en todos los aspectos tecnológicos."
                 }
             ],
             units: [
                 {
                     id: "1",
-                    title: "Planificacion del talento humano; Desarrollar competencias en la elaboración de perfiles de cargos y manuales de responsabilidades."
+                    title: "MODELOS DE GESTIÓN PORTUARIA; MARCO ECONÓMICO, POLÍTICO Y JURÍDICO DEL COMERCIO INTERNACIONAL;  EL SISTEMA ADUANERO Y LA NORMATIVA DE COMERCIO INTERNACIONAL"
                 },
                 {
                     id: "2",
-                    title: "Reclutamiento; preselección de Candidatos; entrevistas por Competencias; pruebas de Selección de Personal. Gestionar un proceso de selección de personal en una organización empresarial."
+                    title: "UNIDAD DIDÁCTICA 4. GESTIÓN DE DOCUMENTOS ADUANEROS; LA CONTRATACIÓN INTERNACIONAL; COMPRAVENTA INTERNACIONAL; ASPECTOS BÁSICOS DEL SEGURO EN EL COMERCIO INTERNACIONAL"
                 },
                 {
                     id: "3",
-                    title: "Vinculación y Contratación. Identificar los requisitos legales del proceso de vinculación y contratación laboral."
-                },
-                {
-                    id: "4",
-                    title: "Inducción; entretenimiento; desarrollo de Personas; clima Laboral. Estructurar planes y herramientas para potenciar el desarrollo humano en las organizaciones."
-                },
-                {
-                    id: "5",
-                    title: "Evaluación de Desempeño por competencias"
-                },
-                {
-                    id:"6",
-                    title:"Aprendizaje organizacional. Diseñar y aplicar evaluaciones de desempeño por competencias"
+                    title: "ACONDICIONAMIENTO DE LOS ESPACIOS DE CARGA DEL BUQUE; ESTIBA DE LA CARGA EN FUNCIÓN DE LAS MANIOBRAS DEL BUQUE; MEDIOS DE CARGA Y DESCARGA DEL BUQUE"
                 }
             ],
-            duration: 18,
+            duration: 36,
             modality: "On Line",
-            img: "diplomadotalentohumano_short_0.jpg"
+            img: "Curso Logistica Maritima Modulo 01.png"
         },
         {
             id: "5",
-            title: "DIPLOMADO EN LOGÍSTICA GLOBAL",
+            title: "CURSO CIBERSEGURIDAD MÓDULO 2",
             category: "yoga",
-            description: "Con este diplomado en logística podrás conocer las estrategias para realizar una distribución eficiente de los productos con un excelente servicio.",
+            description: "Identificar los principales componentes y el funcionamiento de las Computadoras y los sistemas de información para su consideración en la aplicación de procedimientos y procesos de la seguridad informática e implementar procesos de seguridad informática en la gestión de las bases de datos y la infraestructura tecnológica en las organizaciones.",
             skills: [
                 {
                     id: "1",
-                    description: "Desarrollar las claves para dirigir y planificar los procesos de calidad y operaciones logísticas."
+                    description: "Fundamentos de Programación Fund; de Tecnologías de Infor."
                 },
                 {
                     id: "2",
-                    description: "Adquirir los conocimientos necesarios sobre los fundamentos de la logística, la producción y la distribución comercial a nivel global."
+                    description: "Identidad Universitaria Planeación y Manejo del Tiempo"
                 },
                 {
                     id: "3",
-                    description:"Asumir las herramientas necesarias para planificar un proyecto logístico en todas sus fases y tomar decisiones operativas."
+                    description: "Medir, monitorear y optimizar servicios de TI y el desempeño del proveedor de servicios."
                 },
                 {
                     id: "4",
-                    description:"Conocer el funcionamiento de la gestión de compras y aprovisionamiento y los mecanismos de creación de cadena de suministro."
+                    description: "Gestionar la inversión y presupuesto destinado a TI."
                 },
                 {
                     id: "5",
-                    description:"Dominar las tecnologías de la información logística y todas aquellas relacionadas con sistemas e ingeniería logística."
+                    description: "Gestionar el riesgo. Gestionar el conocimiento."
+                },
+                {
+                    id: "6",
+                    description: "Gestionar las competencias y recursos para entregar servicios efectivos y eficientes."
                 }
             ],
             units: [
                 {
                     id: "1",
-                    title: "Introducción a las operaciones: conceptos y métricas Marco contemporáneo de gestión de las operaciones"
+                    title: "Gestión estratégica para servicios de TI"
                 },
                 {
                     id: "2",
-                    title: "La búsqueda por la perfección en los procesos. Process Analytics: descubriendo patrones en los datos operacionales"
+                    title: "Gestión del portafolio de servicios"
                 },
                 {
                     id: "3",
-                    title: "Supply Chain analytics: desagregando los procesos"
+                    title: "Gestión financiera para servicios de TI"
                 },
                 {
                     id: "4",
-                    title: "AOptimización: el uso efectivo de los recursos. Process mining: comprendiendo la interrelación entre los datos y los procesos"
+                    title: "Gestión de demanda Gestión de relaciones del negocio"
                 }
             ],
-            duration: 20,
+            duration: 3,
             modality: "On Line",
-            img: "fc417e79-ece2-4fa1-b0c2-39c083993dad-12792fb57804.jpg"
+            img: "CURSO CIBERSEGURIDAD MÓDULO 2.jpg"
         }
     ],
     metodos: {
