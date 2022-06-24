@@ -257,6 +257,51 @@ export const db =
             duration: 3,
             modality: "On Line",
             img: "CURSO CIBERSEGURIDAD MÓDULO 2.jpg"
+        },
+        {
+            id: "6",
+            title: "Curso Aspectos Tecnológicos en Metalurgia y Metalmecánica",
+            category: "yoga",
+            description: "Los aspectos tecnológicos asociados a la metalurgia y la metalmecánica hacen referencia a las teorías y técnicas que posibilitan el entendimiento de los procesos de beneficio de los minerales, transformación y caracterización de los productos metálicos para la producción de partes y piezas que son esenciales para la vida cotidiana.",
+            skills: [
+                {
+                    id: "1",
+                    description: "Conocer la evolución, alcance, importancia y términos asociados con la metalurgia."
+                },
+                {
+                    id: "2",
+                    description: "Entender la relevancia de la metalurgia y la metalmecánica en la tecnología e ingeniería."
+                },
+                {
+                    id: "3",
+                    description: "Comprender los fundamentos básicos de la metalurgia química, física y mecánica."
+                },
+                {
+                    id: "4",
+                    description: "Comprender los principios básicos que rigen los procesos de conformado de piezas metálicas."
+                }
+            ],
+            units: [
+                {
+                    id: "1",
+                    title: "Introducción; Importancia de la metalurgia y metalmecánica, vision y evolucion de la metalurgia y metalmecánica"
+                },
+                {
+                    id: "2",
+                    title: "Términos comunes asociados con Metalurgia, fundamentos básicos de la metalurgia y propiedades mecánicas más relevantes"
+                },
+                {
+                    id: "3",
+                    title: "Relevancia de la metalurgia y la metalmecánica en el contexto tecnológico"
+                },
+                {
+                    id: "4",
+                    title: "Aspectos tecnológicos de la metalmecánica y de los procesos de conformado"
+                }
+            ],
+            duration: 12,
+            modality: "On Line",
+            img: "Curso Aspectos Tecnológicos en Metalurgia y Metalmecánica.jpeg"
         }
     ],
     metodos: {
